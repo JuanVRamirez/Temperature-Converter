@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./grados.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de grados</title>
+</head>
+<body>
+    <h1>Degree converter</h1>
+<section>
+    <label for="celsius">Enter the temperature:</label>
+    <input id="initialTemperature" type="number">
+    <p></p> 
+</section>
+<section id="seccion2">
+    <select name="Choose" id="initialChoose">
+        <option name="valor" value="Fahrenheit">Fahrenheit</option>
+        <option name="valor" value="Kelvin">Kelvin</option>
+        <option name="valor" value="Celsius">Celsius</option>
+    </select>
+    <label for="temperatureChoose">to</label>
+    <select name="ChooseTemperature" id="temperatureChoose">
+        <option name="valor2" value="Fahrenheit">Fahrenheit</option>
+        <option name="valor2" value="Kelvin">Kelvin</option>
+        <option name="valor2" value="Celsius">Celsius</option>
+    </select>
+</section>
+    <button id="calculate">Calculate</button>
+<p></p>
+    <span id="mensaje"></span>
+
+  <script src="./grados.js"></script>  
+</body>
+</html>
